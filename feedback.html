@@ -1,0 +1,55 @@
+<html>
+    <head>
+      <title> Online catalogue | Feedback </title>
+    <link rel="stylesheet" href="style5.css">
+    </head>
+<body>
+  <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="Images/paypal.png" width="125px">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index1.html"><b>Home</b></a></li>
+                    <li><a href="product.html"><b>Products</b></a></li>
+                    <li><a href="about.html"><b> About</b></a></li>
+                    <li><a href="contact.html"><b>Contact</b></a></li>
+                    <li><a href="feedback.html"><b>Feedback</b></a></li>
+                    <li><a href="index.html"><b>Logout</b></a></li>
+                </ul>
+            </nav>
+          </div>
+          </div>
+          </div>
+          <div class="container">
+            <div class="forms">
+                <div class="form-content">
+                  <div class="login-form">
+                    <div class="title"> <b> Do You Like Our Page?</b></div>
+                    <div class="input-boxes">
+                      <div class="input-box">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <form action="feedback.php" method="POST">
+                        <input list="Feedback">
+                        <datalist id="Feedback">
+                          <option value="Yes">
+                          </option>
+                          <option value="No">
+                          </option>
+                          <option value="Uncertain"></option>
+                        </datalist>
+                        <input type="text" name="feedback" placeholder="Description">
+                      </div>
+                      <div class="button input-box">
+                        <input type="submit" name="save" value="Submit">
+                      </div>
+                    </form>
+              </div>
+            </div>
+            </div>
+            </div>
+          </div>
+          </body>
+            </html>

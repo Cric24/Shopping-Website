@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <title>Weather App</title>
+    <script src="app.js"></script>
+</head>
+<body> 
+    <div class="container">
+        <div>
+            <h1 id="heading"> Weather manager </h1>
+            <br/>
+            <input type="text" name="" placeholder="Search City"  id="city-input">
+            <br/>
+            <input type="button" onclick="searchCity()" value="Search">
+            </div>
+        <div class="result"><br>
+            <h2 id="city-name">--------</h2><br>
+            <div>
+                <h1 id="weather-type">---------</h1><br>
+                <div>
+                    <h3>Temp: <span id="temp"></span></h3>
+                    <h3>Description: <span id="des"></span></h3>
+                    <h3>Feels-Like: <span id="feel_like"></span></h3>
+                    <h3>Min-Temp: <span id="min-temp"></span></h3>
+                    <h3>Sea Level <span id="sea_level"></span></h3>
+                    <h3>Humidity <span id="humidity"></span></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+    
+</body>
+</html>

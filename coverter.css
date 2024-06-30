@@ -1,0 +1,129 @@
+body {
+    background-image:url(images/wal1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+  
+  }
+  
+  
+  
+  h1 {
+  
+    color: rgb(231, 223, 226);
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: bold;
+  
+  }
+  
+  
+  
+  p {
+    color: rgb(229, 217, 194);
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+  
+  }
+  
+  
+  
+  .btn {
+  
+    color: black;
+    background: wheat;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px 12px;
+  
+  }
+  
+  
+  
+  .money-img {
+  
+    width: 150px;
+  
+  }
+  
+  
+  
+  .currency {
+  
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  
+  
+  
+  .currency select {
+  
+    padding: 10px 20px 10px 10px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: 1px solid #c0baba;
+    font-size: 16px;
+    color: rgb(17, 17, 17);
+  
+  }
+  
+  
+  
+  .currency input {
+      color: blanchedalmond;
+    border: 0;
+    background: transparent;
+    font-size: 30px;
+    text-align: right;
+  
+  }
+  
+  
+  
+  .swap-rate-container {
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  
+  
+  
+  .rate {
+  
+    color: blanchedalmond;
+    font-size: 14px;
+    padding: 0 10px;
+  
+  }
+  
+
+  
+  button:focus {
+  
+    outline: 0;
+  
+  }
+  
+  
+  
+  @media (maz-width: 600px) {  
+    .currency input {
+      width: 200px;
+    }
+  }

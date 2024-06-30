@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Exchange Rate Calculator</title>
+
+    <link rel="stylesheet" href="coverter.css" />
+
+  </head>
+
+  <body>
+
+    <img src="img/money.png" alt="" class="money-img" />
+
+    <h1>Exchange Rate Calculator</h1><br><br><br>
+
+    <p>Choose the currency and the amounts<br> to get the exchange rate</p>
+ 
+</head>
+
+<body>
+ 
+<div class="container">
+
+    <div class="currency">
+
+        <select id="from_currency">
+ 
+    
+
+        <option value="AED">AED(UAE)</option>
+
+      <option value="AUD">Australian Dollar</option>
+
+      <option value="CAD">Canadian Dollar</option>
+
+      <option value="CNY">Chinese Yuan</option>
+
+      <option value="EGP">Egyptian Pound</option>
+
+      <option value="EUR">EURO</option>
+
+      <option value="HKD">Hong Kong Dollar</option>
+
+      <option value="INR">INR</option>
+
+      <option value="LKR">LKR</option>
+
+      <option value="JPY">Japanese Yen</option>
+
+      <option value="MYR">Malaysian Ringgit</option>
+
+      <option value="NZD">Newzealand Dollar</option>
+
+      <option value="PHP">Philippine peso</option>
+
+      <option value="PKR">Pakistani rupee</option>
+
+      <option value="RUB">Russian Ruble</option>
+
+      <option value="SAR">Saudi Riyal</option>
+
+      <option value="SGD">Singapore Dollar</option>
+
+      <option value="TWD">Taiwan dollar</option>
+
+      <option value="USD" selected>USD</option>
+
+      <option value="ZAR">South African Rand</option>
+ </select>
+ <input type="number" id="from_ammount" placeholder="0" value=1>
+
+ </div>
+
+ <div class="middle">
+
+ <button id="exchange">
+
+ <i class="fas fa-exchange-alt"> Swap</i>
+ </button>
+
+ <div class="rate" id="rate"></div>
+ </div>
+
+ <div class="currency">
+ 
+    <select id="to_currency"><option value="AED">AED</option>
+    <option value="AED">AED(UAE)</option>
+
+    <option value="AUD">Australian Dollar</option>
+
+    <option value="CAD">Canadian Dollar</option>
+
+    <option value="CNY">Chinese Yuan</option>
+
+    <option value="EGP">Egyptian Pound</option>
+
+    <option value="EUR" selected>EURO</option>
+
+    <option value="HKD">Hong Kong Dollar</option>
+
+    <option value="INR">INR</option>
+    
+    <option value="LKR">LKR</option>
+
+    <option value="JPY">Japanese Yen</option>
+
+    <option value="MYR">Malaysian Ringgit</option>
+
+    <option value="NZD">Newzealand Dollar</option>
+
+    <option value="PHP">Philippine peso</option>
+
+    <option value="PKR">Pakistani rupee</option>
+
+    <option value="RUB">Russian Ruble</option>
+
+    <option value="SAR">Saudi Riyal</option>
+
+    <option value="SGD">Singapore Dollar</option>
+
+    <option value="TWD">Taiwan dollar</option>
+
+    <option value="USD">USD</option>
+
+    <option value="ZAR">South African Rand</option>
+ 
+ </select>
+ <input type="number" id="to_ammount" placeholder="0" />
+ </div>
+</div>
+ 
+<script  src="function.js"></script>
+ 
+</body>
+</html>
